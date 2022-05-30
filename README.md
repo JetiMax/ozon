@@ -1,18 +1,20 @@
 ФАЙЛЫ
 
-conftest.py содержит фикстуры для setup
+conftest.py  - содержит фикстуры для setup
 
-pages/base.py содержит реализацию шаблона PageObject для Python.
+pages/base.py -  содержит реализацию шаблона PageObject для Python.
 
-pages/elements.py содержит вспомогательный класс для определения веб-элементов на веб-страницах.
+pages/elements.py  - содержит вспомогательный класс для определения веб-элементов на веб-страницах.
 
-seleniumbase.py  содержит базовые методы для test_homepage.py
+seleniumbase.py   - содержит базовые методы для test_homepage.py
 
 pom/homepage_nav.py — это микрофреймворк Page-Object-Model для простой, быстрой и приятной разработки тестов веб-интерфейса. где наследуем class seleniumbase 
 
-utils.py Содержит утилиту/ы
+utils.py  - Содержит утилиту/ы
 
-selenium_listener.py Содеожит исключения 
+Base.py  - Содержит коммиты
+
+selenium_listener.py  - Содержит исключения 
 
 КАК ЗАПУСКАТЬ ТЕСТ:
 Установите все требования:
@@ -24,3 +26,5 @@ pip install -r requirements
 ЗАПУСТИТЬ ТЕСТ:
 
 pytest  -s -v 
+![Screenshot_5](https://user-images.githubusercontent.com/91092934/171010304-3717f1e3-d3e4-4bd4-b83b-4535532a2965.png)
+
