@@ -1,4 +1,5 @@
-Файлы
+ФАЙЛЫ
+
 conftest.py содержит фикстуры для setup
 
 pages/base.py содержит реализацию шаблона PageObject для Python.
@@ -13,12 +14,13 @@ utils.py Содержит утилиту/ы
 
 selenium_listener.py Содеожит исключения 
 
-Как запускать тесты
+КАК ЗАПУСКАТЬ ТЕСТ:
 Установите все требования:
 
-pip3 install -r requirements
+pip install -r requirements
 Загрузите Selenium WebDriver с https://chromedriver.chromium.org/downloads (выберите версию, совместимую с вашим браузером)
 
-Запустите тесты:
+
+ЗАПУСТЬТЬ ТЕСТ:
 
 pytest  -s -v 
