@@ -1,0 +1,9 @@
+pytest~=7.1.1
+selenium~=4.2.0
+allure-pytest~=2.9.45
+requests~=2.27.1
+termcolor~=1.1.0
+config~=0.5.1
+Twisted~=22.4.0
+async-timeout~=4.0.2
+pages~=0.3
