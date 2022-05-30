@@ -21,6 +21,6 @@ pip install -r requirements
 Загрузите Selenium WebDriver с https://chromedriver.chromium.org/downloads (выберите версию, совместимую с вашим браузером)
 
 
-ЗАПУСТЬТЬ ТЕСТ:
+ЗАПУСТИТЬ ТЕСТ:
 
 pytest  -s -v 
